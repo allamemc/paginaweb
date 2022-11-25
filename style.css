@@ -1,0 +1,190 @@
+html {
+    background: #f6faff;
+  }
+body{
+  background-color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+  
+  .container {
+    z-index: 100 ;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    width: 100%;
+  }
+  .item {
+    margin-top: 12px;
+    padding: 17px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .item:hover{
+    border-bottom: 2px solid rgb(208, 201, 11);
+  }
+
+  .item a {
+    text-decoration: none;
+    color: #0C4893;
+  }
+
+  .item img{
+    width: 20px;
+    height: 20px;
+  }
+
+  #first{
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 4px;
+  }
+
+  .mango{
+    display: flex;
+    margin-top: 66;
+  }
+
+  .texto{
+    display: flex;
+    margin-top: 200;
+    flex-direction: column;
+    padding-left: 20;
+  }
+
+  .mangoloco{
+    display: flex;
+    width: 100%;
+  }
+
+  #descripcion{
+    width: 60%;
+    font-size: 17;
+    color: #333333;
+  }
+
+  #titulo{
+    font-size: 41;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #arriba{
+    color: grey;
+    font-size: 14;
+  }
+
+  #dispo{
+    font-weight: bold;
+  }
+
+  #contenido{
+    background-color: #0C4893;
+    padding: 15;
+    width: 50px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .cookies{
+    display: flex;
+    background-color: #063977;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+  }
+
+  .final{
+    margin-top: 40;
+    background-color: #0C4893;
+    display: flex;
+    width: 100%;
+  }
+
+  .izquierda{
+    display:flex;
+    position: relative;
+    left: 400;
+    width: 100%;
+  }
+
+  .imagen{
+    display: flex;
+  }
+  .imagen img{
+    width: 140;
+    height: 140;
+  }
+
+  .textofin{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20;
+    color: white;
+    width: 350;
+  }
+
+  .beneficios{
+    display: flex;
+    position: relative;
+    background-color: #f6f6f6;
+    width: 100%;
+    left: 300;
+    top: 90;
+    height: 400px;
+  }
+
+  #relativa{
+    position: relative;
+    left: 950;
+    bottom: 330;
+    width: 540px;
+    height: 359.72px;
+  }
+
+  .titulo_bene{
+    font-size: 30px;
+    color:#f6f6f6;
+    font-weight: bold;
+    position: relative;
+    left: 90;
+    padding-top: 20;
+  }
+  .locass{
+    padding-top: 20;
+    padding-left: 90;
+  }
+ 
+ .tablas{
+  margin-left: 100;
+  text-decoration: none;
+ }
+ #beney{
+  font-size: 30;
+  font-weight: bold;
+ }
+  
+ .debajo{
+  display: flex;
+  justify-content: center;
+ }
+ .iz{
+  display: flex;
+  padding-right: 300;
+ }
+ .de{
+  display: flex;
+ }
+ .kiu{
+  display: inline-block;
+  margin-top: 100;
+  position: relative;
+  left: 400;
+ }
